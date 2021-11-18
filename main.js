@@ -42,13 +42,13 @@ function my_keydown(e)
 		console.log("Other key");
 	}
 
-		if(keyPressed >=48 && <=57){
+		if(keyPressed >= 48 && keyPressed <= 57){
 			numberkey();
 			document.getElementById("d1").innerHTML = "You pressed a number key";
 			console.log("Number key");
 		}
 
-		if(keyPressed >=37 && <=40){
+		if(keyPressed >= 37 && <= 40){
 			arrowkey();;
 			document.getElementById("d1").innerHTML="You pressed a  arrow key";
 			console.log("Arrow key");
